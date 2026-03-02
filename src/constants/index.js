@@ -1,78 +1,78 @@
 // index.js
 export const servicesData = [
   {
-    title: "FullStack Development",
+    title: "Full-Stack Development",
     description:
-      "Your business deserves a fast, secure, and future-proof digital foundation. I develop custom web apps with clean architecture, optimized databases, and seamless integrations—ensuring reliability at every layer.",
+      "I build scalable, secure, and maintainable web applications with clean architecture and well-structured systems. From API design to frontend implementation, every layer is engineered for reliability and performance.",
     items: [
       {
         title: "Backend Engineering",
-        description: "(REST/GraphQL APIs, Microservices, Auth Systems)",
+        description: "(REST APIs, Authentication, Scalable Architecture)",
       },
       {
-        title: "Frontend Excellence",
-        description: "(React, Vue, TypeScript, Interactive UI/UX)",
+        title: "Frontend Engineering",
+        description: "(React, TypeScript, Component Architecture)",
       },
       {
         title: "Database Design",
-        description: "(SQL/NoSQL Optimization, Scalable Structures)",
+        description: "(SQL/NoSQL Modeling, Query Optimization)",
       },
     ],
   },
   {
-    title: "DevOps & Cloud Solutions",
+    title: "Cloud Foundations",
     description:
-      "Deploying software shouldn't be a gamble. I automate infrastructure, enforce security, and leverage cloud platforms (AWS/Azure) to keep your app running smoothly—24/7, at any scale.",
+      "Reliable software requires reliable infrastructure. I implement CI/CD workflows, containerization, and cloud deployment strategies to ensure consistent, secure, and scalable application delivery.",
     items: [
       {
         title: "CI/CD Pipelines",
-        description: "(GitHub Actions, Docker, Kubernetes)",
+        description: "(GitHub Actions, Automated Testing)",
       },
       {
-        title: "Server Management ",
-        description: "(Linux, Nginx, Load Balancing)",
+        title: "Containerization",
+        description: "(Docker, Environment Consistency)",
       },
       {
-        title: "Performance Tuning",
-        description: "(Caching, Compression, Lighthouse 90+ Scores)",
-      },
-    ],
-  },
-  {
-    title: "Security & Optimization",
-    description:
-      "Slow or hacked apps destroy trust. I harden security (XSS/SQLI protection, OAuth) and optimize bottlenecks so your app stays fast, safe, and scalable as you grow.",
-    items: [
-      {
-        title: "Code Audits",
-        description: "(Refactoring, Tech Debt Cleanup)",
-      },
-      {
-        title: "Pen Testing",
-        description: "(Vulnerability Assessments)",
-      },
-      {
-        title: "SEO Tech Stack",
-        description: "(SSR, Metadata, Structured Data)",
+        title: "Cloud Deployment",
+        description: "(AWS, EC2, API Gateway, AWSCognito)",
       },
     ],
   },
   {
-    title: "Web & Mobile Apps",
+    title: "Testing & Quality Assurance",
     description:
-      "A clunky interface can sink even the best ideas. I craft responsive, pixel perfect web and mobile apps (React Native/Flutter) that users love—bridging design and functionality seamlessly.",
+      "Robust systems require rigorous validation. I implement testing strategies to ensure application reliability, prevent regressions, and maintain code quality across development cycles.",
     items: [
       {
-        title: "Cross-Platform Apps",
-        description: "(Single codebase for iOS/Android/Web)",
+        title: "Unit & Integration Testing",
+        description: "(Go Testing, Jest, API Testing)",
       },
       {
-        title: "PWAs",
-        description: "(Offline mode, Push Notifications)",
+        title: "Test Automation",
+        description: "(CI Test Workflows, Continuous Validation)",
       },
       {
-        title: "E-Commerce",
-        description: "(Checkout flows, Payment Gateways, Inventory APIs)",
+        title: "Code Quality & Reviews",
+        description: "(Refactoring, Performance Checks, Error Handling)",
+      },
+    ],
+  },
+  {
+    title: "Web Applications",
+    description:
+      "I develop responsive, high-performance web applications with clean UI architecture and optimized frontend performance. The focus is on usability, scalability, and long-term maintainability.",
+    items: [
+      {
+        title: "Responsive Interfaces",
+        description: "(Modern CSS, Accessibility, UX Standards)",
+      },
+      {
+        title: "Performance Optimization",
+        description: "(SSR, Code Splitting, Caching Strategies)",
+      },
+      {
+        title: "Web Platform Features",
+        description: "(Authentication, Dashboards, Admin Systems)",
       },
     ],
   },
@@ -80,102 +80,105 @@ export const servicesData = [
 export const projects = [
   {
     id: 1,
-    name: "Mobile Accessories E-commerce",
+    name: "Nestora Real Estate Platform",
     description:
-      "An online store specializing in phone accessories including cases, chargers, cables, and power banks with MagSafe compatibility.",
-    href: "",
-    image: "/assets/projects/mobile-accessories-store.jpg",
+      "A full-stack real estate platform for seamless property discovery, connecting landlord and tenants with filtering, appointment bookings, lease agreements and an escrow based payment system.",
+    subDescription: [
+      "Developing a modern real estate interface using Next.js, TypeScript, and Tailwind CSS for a fast and responsive experience.",
+      "Utilizing Prisma ORM with PostgreSQL for scalable and secure data modeling.",
+      "Integrating stripe to handle payment systems",
+      "Escrow based payment functionalities that prevents property listing fraud",
+    ],
+    href: "https://realty-sphere.vercel.app/",
+    github: "https://github.com/AboloreDev/realty-sphere",
+    image: "/assets/projects/1.png",
     bgImage: "/assets/backgrounds/blanket.jpg",
     frameworks: [
-      { id: 1, name: "React" },
-      { id: 2, name: "Next.js" },
-      { id: 3, name: "Node.js" },
-      { id: 4, name: "MongoDB" },
-      { id: 5, name: "Tailwind CSS" },
-    ],
-  },
-  {
-    id: 2,
-    name: "Plant Shop E-commerce",
-    description:
-      "An online store specializing in rare and decorative plants with a clean, user-friendly interface.",
-    href: "",
-    image: "/assets/projects/plant-shop.jpg",
-    bgImage: "/assets/backgrounds/curtains.jpg",
-    frameworks: [
-      { id: 1, name: "React" },
-      { id: 2, name: "Next.js" },
-      { id: 3, name: "Stripe API" },
-      { id: 4, name: "Tailwind CSS" },
+      { id: 1, name: "Next.js" },
+      { id: 2, name: "TypeScript" },
+      { id: 4, name: "PostgreSQL" },
+      { id: 5, name: "Prisma" },
+      { id: 6, name: "Stripe" },
     ],
   },
   {
     id: 3,
-    name: "Apple Tech Marketplace",
+    name: "Finance Dashboard",
     description:
-      "An e-commerce platform for Apple products and accessories with deals and category filtering.",
-    href: "",
-    image: "/assets/projects/apple-tech-store.jpg",
-    bgImage: "/assets/backgrounds/map.jpg",
+      "An analytics dashboard for visualizing personal and business financial data.",
+    subDescription: [
+      "Engineered with MERN stack and TypeScript for strong type safety and modularity.",
+      "Integrated Redux for reliable state management and real-time chart updates.",
+    ],
+    href: "https://finance-dashboard-backend-fy04.onrender.com/",
+    image: "/assets/projects/2.png",
+    github: "https://github.com/AboloreDev/finance-dashboard",
+    bgImage: "/assets/backgrounds/curtains.jpg",
     frameworks: [
-      { id: 1, name: "Blazor" },
-      { id: 2, name: "ASP.NET Core" },
-      { id: 3, name: "SQL Server" },
-      { id: 4, name: "Bootstrap" },
+      { id: 1, name: "React" },
+      { id: 2, name: "TypeScript" },
+      { id: 3, name: "MongoDB" },
+      { id: 4, name: "ExpressJs" },
+      { id: 5, name: "Redux" },
     ],
   },
+
   {
     id: 4,
-    name: "Electronics & Gadgets Store",
+    name: "Cartella E-Commerce",
     description:
-      "A multi-category online shop featuring electronics, home appliances, and gaming gear with special offers.",
-    href: "",
-    image: "/assets/projects/electronics-store.jpg",
-    bgImage: "/assets/backgrounds/poster.jpg",
+      "An end-to-end ecommerce web application with real-time checkout and robust admin capabilities.",
+    subDescription: [
+      "Built with Next.js and TypeScript for scalable frontend and backend integration.",
+      "Implemented Stripe for secure, real-time payments and transaction handling.",
+    ],
+    href: "https://cartella-e-commerce.vercel.app/",
+    image: "/assets/projects/3.png",
+    bgImage: "/assets/backgrounds/table.jpg",
+    github: "https://github.com/AboloreDev/cartella-E-commerce",
     frameworks: [
-      { id: 1, name: "Vue.js" },
-      { id: 2, name: "Laravel" },
-      { id: 3, name: "MySQL" },
-      { id: 4, name: "SCSS" },
+      { id: 1, name: "Next.js" },
+      { id: 2, name: "TypeScript" },
+      { id: 4, name: "Stripe" },
+      { id: 6, name: "Sanity" },
     ],
   },
+
   {
     id: 5,
-    name: "Home Decor Marketplace",
+    name: "Concurrent Payroll & Banking System",
     description:
-      "A curated collection of designer home decor items, including furniture and artisan vases.",
+      "A concurrency-driven payroll processing engine built in Go. Supports multi-employee salary computation, safe concurrent deposits and withdrawals, and race-condition prevention using goroutines, mutexes, and WaitGroups.",
     href: "",
-    image: "/assets/projects/home-decor-store.jpg",
-    bgImage: "/assets/backgrounds/table.jpg",
+    image: "/assets/projects/9.png",
+    bgImage: "/assets/backgrounds/map.jpg",
+    github: "https://github.com/AboloreDev/go-payroll-processor-system",
     frameworks: [
-      { id: 1, name: "Angular" },
-      { id: 2, name: "Firebase" },
-      { id: 3, name: "GraphQL" },
-      { id: 4, name: "Material UI" },
+      { id: 1, name: "Go (Golang)" },
+      { id: 2, name: "Goroutines" },
+      { id: 3, name: "Mutex & WaitGroup" },
+      { id: 4, name: "Concurrency Patterns" },
     ],
   },
   {
     id: 6,
-    name: "Digital Game Store",
+    name: "Concurrent Task Scheduler",
     description:
-      "A gaming platform featuring discounted titles, top sellers, and genre-based browsing.",
+      "A lightweight background job scheduler supporting delayed and recurring tasks with graceful shutdown. Implements channel-based cancellation, lifecycle management, and safe task orchestration using Go concurrency primitives.",
     href: "",
-    image: "/assets/projects/game-store.jpg",
-    bgImage: "/assets/backgrounds/curtains.jpg",
+    image: "/assets/projects/5.png",
+    bgImage: "/assets/backgrounds/poster.jpg",
+    github: "https://github.com/AboloreDev/go-concurrent-task-scheduler",
     frameworks: [
-      { id: 1, name: "Svelte" },
-      { id: 2, name: "Node.js" },
-      { id: 3, name: "MongoDB" },
-      { id: 4, name: "Chakra UI" },
+      { id: 1, name: "Go (Golang)" },
+      { id: 2, name: "Channels" },
+      { id: 3, name: "Time.Ticker & Timer" },
+      { id: 4, name: "Synchronization Primitives" },
     ],
   },
 ];
 export const socials = [
-  { name: "Instagram", href: "https://www.instagram.com/ali.sanatidev/reels/" },
-  {
-    name: "Youtube",
-    href: "https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA",
-  },
-  { name: "LinkedIn", href: "https://www.linkedin.com/in/ali-sanati/" },
-  { name: "GitHub", href: "https://github.com/Ali-Sanati" },
+  { name: "Twitter", href: "https://twitter.com/abolorreeeee" },
+  { name: "LinkedIn", href: "https://www.linkedin.com/in/fathiu-alabi/" },
+  { name: "GitHub", href: "https://github.com/Aboloredev" },
 ];
