@@ -3,6 +3,7 @@ import { socials } from "../constants";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { Link } from "react-scroll";
+import ResumeButton from "../components/Resumebutton";
 
 const Navbar = () => {
   const navRef = useRef(null);
@@ -145,6 +146,8 @@ const Navbar = () => {
             </div>
           </div>
         </div>
+
+        <ResumeButton />
       </nav>
       <div
         className="fixed z-50 flex flex-col items-center justify-center gap-1 transition-all duration-300 bg-black rounded-full cursor-pointer w-14 h-14 md:w-20 md:h-20 top-4 right-10"
