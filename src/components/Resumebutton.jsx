@@ -133,7 +133,7 @@ export default function ResumeButton() {
 
       <div className="resume-btn-wrapper">
         <a
-          href="../../public/assets/3pages.pdf"
+          href="/assets/3pages.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="resume-btn"
