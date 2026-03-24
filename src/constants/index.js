@@ -150,7 +150,7 @@ export const projects = [
     description:
       "A concurrency-driven payroll processing engine built in Go. Supports multi-employee salary computation, safe concurrent deposits and withdrawals, and race-condition prevention using goroutines, mutexes, and WaitGroups.",
     href: "",
-    image: "/assets/projects/9.png",
+    image: "/assets/projects/payroll 1.png",
     bgImage: "/assets/backgrounds/map.jpg",
     github: "https://github.com/AboloreDev/go-payroll-processor-system",
     frameworks: [
