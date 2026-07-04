@@ -5,11 +5,10 @@ import { useMediaQuery } from "react-responsive";
 import AnimatedHeaderSection from "../components/AnimatedHeaderSection";
 const Hero = () => {
   const isMobile = useMediaQuery({ maxWidth: 853 });
-  const text = `Full-Stack Software Engineer building scalable web systems with a strong focus on  architecture and performance.`;
+  const text = `Software Engineer building scalable web systems with a strong focus on architecture and performance.`;
   return (
     <section id="home" className="flex flex-col justify-end min-h-screen">
       <AnimatedHeaderSection
-        subTitle={"Echo Echo!"}
         title={"Alabi Fathiu"}
         text={text}
         textColor={"text-black"}

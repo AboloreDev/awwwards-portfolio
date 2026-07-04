@@ -5,7 +5,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 const About = () => {
-  const text = `Full-Stack Engineer focused on clean architecture and building scalable, high-performance systems from prototype to production.`;
+  const text = `Software Engineer focused on clean architecture and building scalable, high-performance systems from prototype to production.`;
 
   const aboutText = `I design and build reliable backend systems and modern web applications that prioritize performance, maintainability, and security.
 

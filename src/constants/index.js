@@ -162,13 +162,13 @@ export const projects = [
   },
   {
     id: 6,
-    name: "Concurrent Task Scheduler",
+    name: "Prose Blog App",
     description:
-      "A lightweight background job scheduler supporting delayed and recurring tasks with graceful shutdown. Implements channel-based cancellation, lifecycle management, and safe task orchestration using Go concurrency primitives.",
+      "A lightweight blogging platform built with Go, SQL, featuring a rich text editor, image uploads, and a RESTful API for content management.",
     href: "",
-    image: "/assets/projects/5.png",
+    image: "/assets/projects/ppo.png",
     bgImage: "/assets/backgrounds/poster.jpg",
-    github: "https://github.com/AboloreDev/go-concurrent-task-scheduler",
+    github: "https://github.com/AboloreDev/prose-blog-app",
     frameworks: [
       { id: 1, name: "Go (Golang)" },
       { id: 2, name: "Channels" },
